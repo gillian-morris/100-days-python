@@ -1,5 +1,5 @@
 # Day 15 - Coffee Machine Program
-# Making a "coffee machine" with python
+# Making a "coffee machine" with python - procedural programming
 
 MENU = {
     "latte":{
