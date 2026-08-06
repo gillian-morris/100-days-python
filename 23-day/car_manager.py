@@ -1,5 +1,5 @@
-from turtle import Turtle
 import random
+from turtle import Turtle
 
 COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
 STARTING_MOVE_DISTANCE = 5
@@ -14,7 +14,7 @@ class CarManager:
     def generate_car(self):
         t = Turtle()
         t.shape("square")
-        t.shapesize(1,2)
+        t.shapesize(1, 2)
         t.penup()
         t.setheading(180)
         car_color = random.choice(COLORS)
@@ -24,7 +24,7 @@ class CarManager:
         self.cars.append(t)
 
     def generate_cars(self):
-        car_gen = random.randint(1,6)
+        car_gen = random.randint(1, 6)
         if car_gen == 1:
             self.generate_car()
 
@@ -35,7 +35,7 @@ class CarManager:
     def increase_speed(self):
         self.move_speed += MOVE_INCREMENT
 
-    def car_collision(self,player_pos):
+    def car_collision(self, player_pos):
         for car in self.cars:
             if car.distance(player_pos) < 20:
                 return True
