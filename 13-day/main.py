@@ -1,4 +1,4 @@
-# Day 13
+# Day 13 - Debugging Practice
 # Reviewing debugging programs
 
 # Example 1 - if number % 2 needs to be '==' to 0

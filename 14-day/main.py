@@ -1,4 +1,4 @@
-#Day 14 - Higher or Lower Game
+# Day 14 - Higher or Lower Game
 # Using all python from the class so far in one game
 
 import os

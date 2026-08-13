@@ -2,17 +2,69 @@
 # Working with Python tkinter for practice
 # Note: Do NOT use as a legitimate password manager!!! This is just a coding practice.
 
-from pydoc import text
+import random
 from tkinter import *
 from tkinter import messagebox
-import random
 
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def generate_password():
-    letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-    numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-    symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
+    letters = [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+        "o",
+        "p",
+        "q",
+        "r",
+        "s",
+        "t",
+        "u",
+        "v",
+        "w",
+        "x",
+        "y",
+        "z",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z",
+    ]
+    numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    symbols = ["!", "#", "$", "%", "&", "(", ")", "*", "+"]
 
     password_list = []
 
@@ -23,11 +75,12 @@ def generate_password():
     random.shuffle(password_list)
 
     password = "".join(password_list)
-    pass_input.delete(0,END)
-    pass_input.insert(0,password)
+    pass_input.delete(0, END)
+    pass_input.insert(0, password)
     window.clipboard_clear()
     window.clipboard_append(password)
     window.update()
+
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def save_pass():
@@ -36,16 +89,21 @@ def save_pass():
     password = pass_input.get()
 
     if not website or not email or not password:
-        messagebox.showwarning(title="Oops", message="Please don't leave any fields empty!")
+        messagebox.showwarning(
+            title="Oops", message="Please don't leave any fields empty!"
+        )
     else:
-        is_ok = messagebox.askokcancel(title=website, message=f"These are the details entered \nEmail: {email}\nPassword: {password} \nIs it ok to save?")
+        is_ok = messagebox.askokcancel(
+            title=website,
+            message=f"These are the details entered \nEmail: {email}\nPassword: {password} \nIs it ok to save?",
+        )
 
         if is_ok:
             with open("data.txt", "a") as file:
                 file.write(f"{website} | {email} | {password}\n")
-            web_input.delete(0,END)
-            email_input.delete(0,END)
-            pass_input.delete(0,END)
+            web_input.delete(0, END)
+            email_input.delete(0, END)
+            pass_input.delete(0, END)
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -75,12 +133,13 @@ pass_label = Label(text="Password:")
 pass_label.grid(row=3, column=0)
 pass_input = Entry(width=24)
 pass_input.grid(row=3, column=1)
-pass_btn = Button(text="Generate Password", highlightthickness=0, command=generate_password)
+pass_btn = Button(
+    text="Generate Password", highlightthickness=0, command=generate_password
+)
 pass_btn.grid(row=3, column=2)
 
 add_btn = Button(text="Add", highlightthickness=0, width=40, command=save_pass)
 add_btn.grid(row=4, column=1, columnspan=2)
-
 
 
 window.mainloop()

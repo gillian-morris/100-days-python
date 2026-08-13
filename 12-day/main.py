@@ -1,4 +1,4 @@
-# Dasy 12 - Number Guessing Game
+# Day 12 - Number Guessing Game
 # Thinking about scope, local and global.
 
 import random
