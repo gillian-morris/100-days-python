@@ -6,7 +6,7 @@ Daily Projects:
  * Day 2 - Tip Calculator
  * Day 3 - Treasure Island (choice-based game)
  * Day 04 - Rock, Paper, Scissors
- * Day 5 - Password Generator (do NOT use, [follow password best practices](https://www.cisa.gov/secure-our-world/use-strong-passwords))
+ * Day 5 - Password Generator (do NOT use, [follow password best practices](https://www.nist.gov/cybersecurity-and-privacy/how-do-i-create-good-password))
  * Day 06 - Escaping the Maze ([Reeborg World](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json))
  * Day 07 - Hangman
  * Day 08 - Ceasar Cipher Encode and Decode
@@ -29,4 +29,4 @@ Daily Projects:
  * Day 26 - NATO Alphabet Project
  * Day 27 - Mile to KM Coverter
  * Day 28 - Pomodoro Timer
- * Day 29 - Password Manager (do NOT use, [follow password best practices](https://www.cisa.gov/secure-our-world/use-strong-passwords))
+ * Day 29 - Password Manager (do NOT use, [follow password best practices](https://www.nist.gov/cybersecurity-and-privacy/how-do-i-create-good-password))
