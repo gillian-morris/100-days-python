@@ -2,6 +2,7 @@
 # Working with Python tkinter for practice
 # Note: Do NOT use as a legitimate password manager!!! This is just a coding practice.
 
+import json
 import random
 from tkinter import *
 from tkinter import messagebox
@@ -87,23 +88,54 @@ def save_pass():
     website = web_input.get()
     email = email_input.get()
     password = pass_input.get()
+    new_data = {
+        website: {
+            "email": email,
+            "password": password,
+        }
+    }
 
     if not website or not email or not password:
-        messagebox.showwarning(
+        messagebox.showinfo(
             title="Oops", message="Please don't leave any fields empty!"
         )
     else:
-        is_ok = messagebox.askokcancel(
-            title=website,
-            message=f"These are the details entered \nEmail: {email}\nPassword: {password} \nIs it ok to save?",
-        )
+        try:
+            with open("data.json", "r") as file:
+                data = json.load(file)
 
-        if is_ok:
-            with open("data.txt", "a") as file:
-                file.write(f"{website} | {email} | {password}\n")
+        except FileNotFoundError:
+            with open("data.json", "w") as file:
+                json.dump(new_data, file, indent=4)
+        else:
+            data.update(new_data)
+            with open("data.json", "w") as file:
+                json.dump(data, file, indent=4)
+        finally:
             web_input.delete(0, END)
             email_input.delete(0, END)
             pass_input.delete(0, END)
+
+
+# ---------------------------- Search ---------------------------------#
+
+
+def search_info():
+    website = web_input.get()
+    try:
+        with open("data.json", "r") as file:
+            data = json.load(file)
+        messagebox.showinfo(
+            title="Found Info",
+            message=f"Email: {data[website]['email']}\nPassword: {data[website]['password']}",
+        )
+    except FileNotFoundError:
+        messagebox.showinfo(
+            title="No File",
+            message="No passwords found. Please save login information.",
+        )
+    except KeyError:
+        messagebox.showinfo(title="No Record", message="Record for Website not found.")
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -120,9 +152,11 @@ canvas.grid(row=0, column=1)
 
 web_label = Label(text="Website:")
 web_label.grid(row=1, column=0)
-web_input = Entry(width=43)
-web_input.grid(row=1, column=1, columnspan=2)
+web_input = Entry(width=24)
+web_input.grid(row=1, column=1)
 web_input.focus()
+web_btn = Button(text="Search", highlightthickness=0, command=search_info, width=15)
+web_btn.grid(row=1, column=2)
 
 email_label = Label(text="Email/Username:")
 email_label.grid(row=2, column=0)

@@ -30,3 +30,5 @@ Daily Projects:
  * Day 27 - Mile to KM Coverter
  * Day 28 - Pomodoro Timer
  * Day 29 - Password Manager (do NOT use, [follow password best practices](https://www.nist.gov/cybersecurity-and-privacy/how-do-i-create-good-password))
+ * Day 30 - Adding try and except to NATO Alphabet Project and Password Manager
+ * Day 31 - Flash Cards
