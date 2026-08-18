@@ -39,3 +39,5 @@ With that in mind, below is a list indexing the programs I have made each day. F
  * Day 30 - Adding try and except to NATO Alphabet Project and Password Manager
  * Day 31 - Flash Cards
  * Day 32 - Birthday Wisher (Check your code! Never directly use passwords, API keys, or other secrets in code.)
+ * Day 33 - ISS Overhead Notifier
+ * Day 34 - Trivia Game
