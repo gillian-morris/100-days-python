@@ -46,3 +46,5 @@ With that in mind, below is a list indexing the programs I have made each day. F
  * Day 37 - Habit Tracker
  * Day 38 - Workout Tracking
  * Day 39 & 40 Flight Deal Finder
+ * Day 41 - Movie Website
+ * Day 42 - Birthday Invite Website
