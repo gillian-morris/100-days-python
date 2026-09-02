@@ -48,3 +48,5 @@ With that in mind, below is a list indexing the programs I have made each day. F
  * Day 39 & 40 Flight Deal Finder
  * Day 41 - Movie Website
  * Day 42 - Birthday Invite Website
+ * Day 43 - Color Vocab Website
+ * Day 44 - Motivational Meme Website
