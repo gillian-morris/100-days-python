@@ -1,0 +1,100 @@
+1) Psycho
+2) The Wizard of Oz
+3) The Godfather
+4) Citizen Kane
+5) Pulp Fiction
+6) Seven Samurai
+7) 2001: A Space Odyssey
+8) It’s a Wonderful Life
+9) All About Eve
+10) Saving Private Ryan
+11) Singin’ in the Rain
+12) Goodfellas
+13) The Rules of the Game
+14) Do the Right Thing
+15) Sunrise: A Song of Two Humans
+16) Casablanca
+17) Nashville
+18) Persona
+19) The Godfather Part II
+20) Blue Velvet
+21) Gone With the Wind
+22) Chinatown
+23) The Apartment
+24) Tokyo Story
+25) Bringing Up Baby
+26) The 400 Blows
+27) Bonnie and Clyde
+28) City Lights
+29) Double Indemnity
+30) The Empire Strikes Back
+31) Network
+32) Vertigo
+33) 8½
+34) Stagecoach
+35) The Silence of the Lambs
+36) On the Waterfront
+37) Annie Hall
+38) Lawrence of Arabia
+39) Some Like It Hot
+40) Fargo
+41) The Wild Bunch
+42) Moonlight
+43) Shoah
+44) L’Avventura
+45) Titanic
+46) Notorious
+47) Mean Streets
+48) The Piano
+49) The Texas Chain Saw Massacre
+50) Breathless
+51) Apocalypse Now
+52) The General
+53) In the Mood for Love
+54) The Road Warrior
+55) Pather Panchali
+56) Rosemary’s Baby
+57) Brokeback Mountain
+58) E.T. the Extra-Terrestrial
+59) Vagabond
+60) Moulin Rouge!
+61) The Passion of Joan of Arc
+62) Dazed and Confused
+63) Bambi
+64) Carrie
+65) A Man Escaped
+66) Paris Is Burning
+67) Bicycle Thieves
+68) King Kong
+69) Beau Travail
+70) 12 Years a Slave
+71) My Best Friend’s Wedding
+72) Breaking the Waves
+73) Intolerance
+74) My Neighbor Totoro
+75) Boogie Nights
+76) The Tree of Life
+77) Goldfinger
+78) Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles
+79) Waiting for Guffman
+80) Pixote
+81) The Dark Knight
+82) Parasite
+83) Kramer vs. Kramer
+84) Pan’s Labyrinth
+85) Natural Born Killers
+86) Close-Up
+87) The Sound of Music
+88) Malcolm X
+89) Belle de Jour
+90) The Shining
+91) Scenes From a Marriage
+92) Pink Flamingos
+93) Le Samouraï
+94) Bridesmaids
+95) Toy Story
+96) A Hard Day’s Night
+97) Alien
+98) Women on the Verge of a Nervous Breakdown
+99) 12 Angry Men
+100) The Graduate
