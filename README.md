@@ -52,3 +52,4 @@ With that in mind, below is a list indexing the programs I have made each day. F
  * Day 44 - Motivational Meme Website
  * Day 45 - Top 100 Movies
  * Day 46 - Throwback Music Playlist
+ * Day 47 - Automated Amazon Price Tracker
