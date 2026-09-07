@@ -2,7 +2,6 @@
 # Web scraping and API to make a little playlist
 
 from song_manager import SongManager
-from playlist_manager import PlaylistManager
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from dotenv import load_dotenv
