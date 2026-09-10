@@ -54,3 +54,4 @@ With that in mind, below is a list indexing the programs I have made each day. F
  * Day 46 - Throwback Music Playlist
  * Day 47 - Automated Amazon Price Tracker
  * Day 48 - Cookie Clicker Bot
+ * Day 49 - Automate Gym Bookings
