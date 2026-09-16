@@ -56,3 +56,4 @@ With that in mind, below is a list indexing the programs I have made each day. F
  * Day 48 - Cookie Clicker Bot
  * Day 49 - Automate Gym Bookings
  * Day 50 - Tindog Automate Swiping
+ * Day 51 - Internet Speed Complaint Bot
